@@ -1,0 +1,10 @@
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\bin\Debug\SPUTN.exe.config
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\bin\Debug\SPUTN.exe
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\bin\Debug\SPUTN.pdb
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.Form1.resources
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.Properties.Resources.resources
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.exe
+C:\Users\hanif\Desktop\IrishBackstop\SPUTN\obj\Debug\SPUTN.pdb
