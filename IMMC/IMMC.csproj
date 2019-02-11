@@ -79,6 +79,12 @@
     <Compile Include="fSub4.Designer.cs">
       <DependentUpon>fSub4.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSub4b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSub4b.Designer.cs">
+      <DependentUpon>fSub4b.cs</DependentUpon>
+    </Compile>
     <Compile Include="fSub5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fSub4.resx">
       <DependentUpon>fSub4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub4b.resx">
+      <DependentUpon>fSub4b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fSub5.resx">
       <DependentUpon>fSub5.cs</DependentUpon>

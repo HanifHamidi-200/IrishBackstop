@@ -15,3 +15,4 @@ C:\Users\hanif\Desktop\IrishBackstop\IMMC\obj\Debug\IMMC.csproj.GenerateResource
 C:\Users\hanif\Desktop\IrishBackstop\IMMC\obj\Debug\IMMC.csproj.CoreCompileInputs.cache
 C:\Users\hanif\Desktop\IrishBackstop\IMMC\obj\Debug\IMMC.exe
 C:\Users\hanif\Desktop\IrishBackstop\IMMC\obj\Debug\IMMC.pdb
+C:\Users\hanif\Desktop\IrishBackstop\IMMC\obj\Debug\IMMC.fSub4b.resources

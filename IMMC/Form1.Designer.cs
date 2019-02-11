@@ -30,16 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnOpen1 = new System.Windows.Forms.Button();
+            this.btnOpen2 = new System.Windows.Forms.Button();
+            this.btnOpen3 = new System.Windows.Forms.Button();
+            this.btnOpen4 = new System.Windows.Forms.Button();
+            this.btnOpen4b = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnOpen5 = new System.Windows.Forms.Button();
+            this.btnOpen6 = new System.Windows.Forms.Button();
+            this.btnOpen7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -49,54 +50,65 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Controls.Add(this.btnOpen1);
+            this.flowLayoutPanel1.Controls.Add(this.btnOpen2);
+            this.flowLayoutPanel1.Controls.Add(this.btnOpen3);
+            this.flowLayoutPanel1.Controls.Add(this.btnOpen4);
+            this.flowLayoutPanel1.Controls.Add(this.btnOpen4b);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(140, 38);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(557, 88);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(646, 88);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // button1
+            // btnOpen1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 71);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "[Work]_\r\nDifferentPlaces";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnOpen1.Location = new System.Drawing.Point(3, 3);
+            this.btnOpen1.Name = "btnOpen1";
+            this.btnOpen1.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen1.TabIndex = 0;
+            this.btnOpen1.Text = "[Work]_\r\nDifferentPlaces";
+            this.btnOpen1.UseVisualStyleBackColor = true;
+            this.btnOpen1.Click += new System.EventHandler(this.BtnOpen1_Click);
             // 
-            // button2
+            // btnOpen2
             // 
-            this.button2.Location = new System.Drawing.Point(126, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 71);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "MongolianBannisters";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnOpen2.Location = new System.Drawing.Point(126, 3);
+            this.btnOpen2.Name = "btnOpen2";
+            this.btnOpen2.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen2.TabIndex = 1;
+            this.btnOpen2.Text = "MongolianBannisters";
+            this.btnOpen2.UseVisualStyleBackColor = true;
+            this.btnOpen2.Click += new System.EventHandler(this.BtnOpen2_Click);
             // 
-            // button3
+            // btnOpen3
             // 
-            this.button3.Location = new System.Drawing.Point(249, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 71);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "MarsDome";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnOpen3.Location = new System.Drawing.Point(249, 3);
+            this.btnOpen3.Name = "btnOpen3";
+            this.btnOpen3.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen3.TabIndex = 2;
+            this.btnOpen3.Text = "MarsDome";
+            this.btnOpen3.UseVisualStyleBackColor = true;
+            this.btnOpen3.Click += new System.EventHandler(this.BtnOpen3_Click);
             // 
-            // button4
+            // btnOpen4
             // 
-            this.button4.Location = new System.Drawing.Point(372, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 71);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "2077Computer";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnOpen4.Location = new System.Drawing.Point(372, 3);
+            this.btnOpen4.Name = "btnOpen4";
+            this.btnOpen4.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen4.TabIndex = 3;
+            this.btnOpen4.Text = "2077Computer";
+            this.btnOpen4.UseVisualStyleBackColor = true;
+            this.btnOpen4.Click += new System.EventHandler(this.BtnOpen4_Click);
+            // 
+            // btnOpen4b
+            // 
+            this.btnOpen4b.Location = new System.Drawing.Point(495, 3);
+            this.btnOpen4b.Name = "btnOpen4b";
+            this.btnOpen4b.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen4b.TabIndex = 3;
+            this.btnOpen4b.Text = "[SusceptibleTo\r\nDeletion]";
+            this.btnOpen4b.UseVisualStyleBackColor = true;
+            this.btnOpen4b.Click += new System.EventHandler(this.BtnOpen4b_Click);
             // 
             // label1
             // 
@@ -123,48 +135,48 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.flowLayoutPanel2.Controls.Add(this.button5);
-            this.flowLayoutPanel2.Controls.Add(this.button6);
-            this.flowLayoutPanel2.Controls.Add(this.button7);
+            this.flowLayoutPanel2.Controls.Add(this.btnOpen5);
+            this.flowLayoutPanel2.Controls.Add(this.btnOpen6);
+            this.flowLayoutPanel2.Controls.Add(this.btnOpen7);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(140, 132);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(557, 87);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(646, 87);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
-            // button5
+            // btnOpen5
             // 
-            this.button5.Location = new System.Drawing.Point(3, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(117, 71);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "ComputerRobot";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnOpen5.Location = new System.Drawing.Point(3, 3);
+            this.btnOpen5.Name = "btnOpen5";
+            this.btnOpen5.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen5.TabIndex = 0;
+            this.btnOpen5.Text = "ComputerRobot";
+            this.btnOpen5.UseVisualStyleBackColor = true;
+            this.btnOpen5.Click += new System.EventHandler(this.BtnOpen5_Click);
             // 
-            // button6
+            // btnOpen6
             // 
-            this.button6.Location = new System.Drawing.Point(126, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(117, 71);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Space";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnOpen6.Location = new System.Drawing.Point(126, 3);
+            this.btnOpen6.Name = "btnOpen6";
+            this.btnOpen6.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen6.TabIndex = 1;
+            this.btnOpen6.Text = "Space";
+            this.btnOpen6.UseVisualStyleBackColor = true;
+            this.btnOpen6.Click += new System.EventHandler(this.BtnOpen6_Click);
             // 
-            // button7
+            // btnOpen7
             // 
-            this.button7.Location = new System.Drawing.Point(249, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(117, 71);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Planets?";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnOpen7.Location = new System.Drawing.Point(249, 3);
+            this.btnOpen7.Name = "btnOpen7";
+            this.btnOpen7.Size = new System.Drawing.Size(117, 71);
+            this.btnOpen7.TabIndex = 2;
+            this.btnOpen7.Text = "Planets?";
+            this.btnOpen7.UseVisualStyleBackColor = true;
+            this.btnOpen7.Click += new System.EventHandler(this.BtnOpen7_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(351, 225);
+            this.pictureBox1.Location = new System.Drawing.Point(440, 238);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(346, 250);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -176,7 +188,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(763, 525);
+            this.ClientSize = new System.Drawing.Size(830, 525);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -195,17 +207,18 @@
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnOpen1;
+        private System.Windows.Forms.Button btnOpen2;
+        private System.Windows.Forms.Button btnOpen3;
+        private System.Windows.Forms.Button btnOpen4b;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnOpen5;
+        private System.Windows.Forms.Button btnOpen6;
+        private System.Windows.Forms.Button btnOpen7;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnOpen4;
     }
 }
 
